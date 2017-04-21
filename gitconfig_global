@@ -1,0 +1,17 @@
+[alias]
+b = !git branch
+c = !git checkout
+p = !git push
+s = !git status
+del = !git branch -D
+new = !git checkout -b
+logg = !git log --max-count=10
+
+[color]
+        ui = true
+        branch = auto
+        interactive = auto
+        decorate = true
+
+[format]
+  pretty = format:%C(yellow)%h %green%>(12)%ad %Cblue%<(7)%aN%Cred%d %Creset%s
